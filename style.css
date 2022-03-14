@@ -1,0 +1,94 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.back {
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/img_bg_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    height: 40px;
+    width: 1350px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+li {
+    display: inline;
+    float: right;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: coral;
+}
+
+.logo {
+    height: 40px;
+    width: 50px;
+}
+
+.span {
+    text-decoration: solid;
+    color: rgb(68, 91, 134);
+}
+
+.content {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /* Height of the footer */
+    background-color: DarkSalmon;
+    color: white;
+}
+
+footer>p {
+    padding-top: 20px;
+    padding-left: 550px;
+}
+
+.btn {
+    height: 35px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(245, 115, 115);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(218, 122, 122);
+}
+
+.btn:hover {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    color: indianred;
+    cursor: pointer;
+    border: none;
+}
